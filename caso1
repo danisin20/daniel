@@ -1,0 +1,11 @@
+void setup()
+{
+pinMode(13, OUTPUT); > Pin 13 como una salida
+}
+void loop()
+{
+digitalWrite(13, HIGH); > Enciende el led a un voltaje HIGH, valor=255
+delay(1000); > Tiempo en milisegundos = 1 seg
+digitalWrite(13, LOW); > Apaga el led a un voltaje LOW, valor=0
+delay(5000); > Tiempo en milisegundos = 5 segundos
+}
